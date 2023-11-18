@@ -19,3 +19,28 @@
     color:#fff;
     font-size: 1.15rem;
  } 
+ .picture{
+    height: 400px;
+    width: 700px;
+ }
+ 
+.smaller-image {
+    max-width: 100%; 
+    height: auto;
+    max-height: 100px; 
+}
+.custom-canalsvg img {
+    max-width: 80%; 
+    height: auto;
+    max-height: 150px; 
+}
+#carouselExampleIndicators {
+    max-height: 100%; 
+    margin: 0 auto; 
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    
+}
