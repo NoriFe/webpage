@@ -4,27 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Your Service</title>
 </head>
 <body>
-   
+   <section class="w-100% gradient-background ">
     <nav class="container">
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 ">
           <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            
-            <span class="fs-4">Your Service</span>
+            <img src="./image/logo.svg" height="40" class="mx-2" alt="your service logo">
+            <span class="fs-4 links">Your Service</span>
           </a>
     
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link links" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link links">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link links">Pricing</a></li>
             
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link links">About</a></li>
           </ul>
         </header>
     </nav>
-  
+  </section>
+  <div class="px-4 pt-5 my-5 text-center">
+    <h1 class="display-4 fw-bold text-body-emphasis">Your Service</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">
+        Welcome to our website, where our mission is to provide comprehensive services, covering everything from satellite and aerial installations to TV wall mounting and CCTV solutions. Your every need is our priority, ensuring you're covered with top-notch expertise and reliable support. 
+      </p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Get a Quote</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact US</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="./image/img2.jpg" height="300px" width="700px" class="img-fluid border rounded-3 shadow-lg mb-4" alt="sattelite img"  loading="lazy">
+      </div>
+    </div>
+  </div>
 <script src="index.js" type="module"></script>   
 </body>
 </html>
